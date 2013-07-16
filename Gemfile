@@ -34,6 +34,7 @@ group :test do
   gem 'launchy'
   gem 'simplecov', :require => false, :group => :test
   gem 'devise'
+  gem 'email_spec', '1.2.1'
 end
 
 # To use ActiveModel has_secure_password
