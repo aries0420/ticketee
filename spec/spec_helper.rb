@@ -39,4 +39,8 @@ RSpec.configure do |config|
   config.order = "random"
 
   config.include EmailSpec::Helpers
+
+  config.before do
+    ActionMailer::Base.deliveries.clear
+  end
 end
