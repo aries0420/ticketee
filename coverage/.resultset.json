@@ -42,9 +42,10 @@
       "/Users/kc/Documents/Rails/codefellows/hw3/ticketee/app/controllers/projects_controller.rb": [
         1,
         1,
+        1,
         null,
         1,
-        23,
+        28,
         null,
         null,
         1,
@@ -92,6 +93,14 @@
         1,
         null,
         1,
+        null,
+        null,
+        1,
+        14,
+        14,
+        5,
+        5,
+        null,
         null,
         null
       ],
@@ -168,6 +177,6 @@
         null
       ]
     },
-    "timestamp": 1374016262
+    "timestamp": 1374035632
   }
 }

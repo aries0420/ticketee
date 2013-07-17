@@ -2,6 +2,7 @@ require 'spec_helper' #rspec
 
 feature "Editing Projects" do #rspec
   before do #rspec
+    sign_in_as!(Factory(:admin_user))
     Factory(:project, :name => "TextMate 2") #factory_girl
     visit "/" #capybara # can also be "visit root_path"
     click_link "TextMate 2" #capybara
