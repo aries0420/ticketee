@@ -4,6 +4,8 @@ gem 'rails', '3.2.13'
 
 gem 'dynamic_form', '1.1.4'
 
+gem 'devise'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -33,7 +35,6 @@ group :test do
   gem 'pry-rails' # REPL - read evaluate print loop. Just like irb. This is like irb on Steroids
   gem 'launchy'
   gem 'simplecov', :require => false, :group => :test
-  gem 'devise'
   gem 'email_spec', '1.2.1'
 end
 
