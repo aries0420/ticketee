@@ -13,6 +13,7 @@ feature 'Deleting tickets' do
   # let!(:ticket) { Factory(:ticket, :project => project) }
 
   before do
+    define_permission!(user, "view", project)
     sign_in_as!(user)
     visit '/'
     click_link project.name
