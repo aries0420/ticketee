@@ -6,6 +6,8 @@ gem 'dynamic_form', '1.1.4'
 
 gem 'devise'
 
+gem 'cancan', '1.6.7'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
